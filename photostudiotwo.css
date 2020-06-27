@@ -1,0 +1,57 @@
+.navin{display: none;}
+.navout{display: block; }
+
+a{font-size: 10px;}
+a:hover{font-size: 12px;}
+#active{font-size: 14px;}
+#head{font-size: 30px;}
+.btn{font-size: 12px;}
+.btn:hover{font-size: 14px;}
+#hamburger{font-size: 30px;  padding:0px; margin: 0px; }
+ul{justify-content: flex-end;}
+.feature{font-size: 25px;}
+#contianer{flex-direction: column;}
+.servicesh2{font-size: 20px;}
+#search{display: none;}
+
+#con1{font-size: 23px;}
+#con2{width: 200px; height: 150px;}
+.con4{width: 230px; height: 380px;}
+.moveimg{width:330px ; height: 180px; 
+    border: 5px double rgb(0, 204, 255);    
+    } 
+.clients{width: 300px;}
+.clientlogo{width: 120px; height: 150px;}
+#fromclients{flex-direction: column;  justify-content: center; align-items: center;}
+#someWords{
+    flex-direction: column;
+}
+#words{width: auto;}
+#showG{float: left;}
+#graphs{width: auto;}
+
+.line{padding: 3px;}
+
+
+#line1{width: 320px; animation: line1 2s ease-in 0s 1 normal ; }
+@keyframes line1{
+    from{width: 0px;}
+    to{width: 300px;}
+}
+#line2{ width: 240px;animation: line2 2s ease-in 0s 1 normal none;}
+@keyframes line2{
+    from{width: 0px;}
+    to{width: 240px;}
+}
+#line3{width: 180px; animation: line3 2s ease-in 0s 1 normal none;}
+@keyframes line3{
+    from{width: 0px;}
+    to{width: 180px;}
+}
+
+
+.foot{font-size: 10px;}
+.link{font-size: 10px;}
+
+body::before{height: 70%;}
+ul::before{height: 70%;}
